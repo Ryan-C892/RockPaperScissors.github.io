@@ -1,0 +1,71 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#result1 {
+    display: flex;
+    flex: 1;
+    font-size: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#result2 {
+    display: flex;
+    flex: 1;
+    font-size: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#score-board {
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    font-size: 2rem;
+}
+
+input {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border: 0.5rem solid #000;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    transition: all 0.07 ease;
+    width: 10rem;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5rem #000;
+    cursor: pointer;
+}
+
+button:active {
+    border: 0.5rem solid red;
+}
+
+span {
+    display: block;
+    font-size: 1.5rem;
+}
